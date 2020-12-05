@@ -29,6 +29,7 @@ class CardGame:
     return card # ERROR: There is no "card", the function passes in assigned values for "card1" and "card2". Also should be self.card
   else:
     return card2
+    #ERROR: whole "if..else.." has not been indented properly.
   
 
 
