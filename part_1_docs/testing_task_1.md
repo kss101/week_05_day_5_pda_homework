@@ -30,6 +30,7 @@ class CardGame:
   else:
     return card2
     #ERROR: whole "if..else.." has not been indented properly.
+    #ERROR: As this is a function to return the highest value, there should be a catch for the cards being of equal value.
   
 
 
