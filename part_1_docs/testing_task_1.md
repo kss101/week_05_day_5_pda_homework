@@ -20,7 +20,7 @@ class CardGame:
   def check_for_ace(self, card):
     if card.value = 1: # ERROR: Equality check should use double equals "==". Also should be self.card
       return True
-    else
+    else #ERROR missing ":" after "else"
       return False
    
 
