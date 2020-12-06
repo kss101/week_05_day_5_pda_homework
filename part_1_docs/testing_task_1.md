@@ -38,6 +38,6 @@ def cards_total(self, cards): #ERROR: This method has been declared outside of t
   total #ERROR: The variable "total" has not been declared properly as ot has no assigned start value.
   for card in cards:
     total += card.value # ERROR: should be self.card...
-    return "You have a total of" + total #ERROR: for formatting and readability, there should be a space after the "of" so that it reads "...total of " + total.
+    return "You have a total of" + total #ERROR, The "return" statement should not be included in the for loop! #ERROR you cant join a string and an int together using "+".
   
 ```
